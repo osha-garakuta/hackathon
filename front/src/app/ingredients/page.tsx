@@ -5,17 +5,17 @@ import { useRouter, useSearchParams } from "next/navigation"
 import Image from "next/image"
 
 const ingredients = [
-  { id: "carrot", name: "にんじん", image: "/placeholder.svg?height=150&width=150" },
-  { id: "daikon", name: "大根", image: "/placeholder.svg?height=150&width=150" },
-  { id: "komatsuna", name: "小松菜", image: "/placeholder.svg?height=150&width=150" },
-  { id: "cabbage", name: "キャベツ", image: "/placeholder.svg?height=150&width=150" },
-  { id: "konjac", name: "こんにゃく", image: "/placeholder.svg?height=150&width=150" },
-  { id: "wakame", name: "わかめ", image: "/placeholder.svg?height=150&width=150" },
-  { id: "zucchini", name: "ズッキーニ", image: "/placeholder.svg?height=150&width=150" },
-  { id: "beetroot", name: "ビートルート", image: "/placeholder.svg?height=150&width=150" },
-  { id: "kale", name: "ケール", image: "/placeholder.svg?height=150&width=150" },
-  { id: "broccoli", name: "ブロッコリー", image: "/placeholder.svg?height=150&width=150" },
-  { id: "asparagus", name: "アスパラガス", image: "/placeholder.svg?height=150&width=150" },
+  { id: "carrot", name: "にんじん", image: "/carrot.png" },
+  { id: "daikon", name: "大根", image: "/daikon.png" },
+  { id: "komatsuna", name: "小松菜", image: "/komatsuna.png" },
+  { id: "cabbage", name: "キャベツ", image: "/cabbage.png" },
+  { id: "konjac", name: "こんにゃく", image: "/konjac.png" },
+  { id: "wakame", name: "わかめ", image: "/wakame.png" },
+  { id: "zucchini", name: "ズッキーニ", image: "/zucchini.png" },
+  { id: "beetroot", name: "ビートルート", image: "/beet.png" },
+  { id: "kale", name: "ケール", image: "/kale.png" },
+  { id: "broccoli", name: "ブロッコリー", image: "/broccoli.png" },
+  { id: "asparagus", name: "アスパラガス", image: "/asparagus.png" },
 ]
 
 export default function IngredientsPage() {
